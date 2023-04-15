@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto&family=Rubik+80s+Fade&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url('../imagens/bg-extensao.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.UnibraLogo{
+    width: 40%;
+    margin-top: 15%;
+}
+
+.ContainerPrincipal{
+    position: absolute;
+    background-color: #FFF;
+    color: #000000;
+    box-shadow: -1px -1px 10px grey;
+    border-radius: 5%;
+    margin-top: 45%;
+    width: 25%;
+    height: 55%;   
+}
+
+.Titulo{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.Paragráfo{
+    position: absolute;
+    font-size: 10px;
+    color: grey;
+    margin-top: 20%;
+    margin-left:10%;
+}
+
+.Titulo2{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30%;
+}
+
+.Sair{
+    position: absolute;
+    margin-left: -8%;
+    margin-top: 80%;
+    text-decoration: none;
+    color: red;
+}
+
+.Button2{
+    position: absolute;
+    margin-left: -40%;
+    margin-top: 55%;
+    width: 80%;
+    height: 50px;
+    border:none;
+    background-color:#1C1C1C;
+    color: #FFF;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Link{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.Detail{
+    position: absolute;
+    background-color: green;
+    margin-top: 71%;
+    width: 20%;
+    height: 10px;
+    border-radius: 40px;
+}
+
+
+
+
